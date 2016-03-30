@@ -1,7 +1,8 @@
 (ns genetic-alg.core
-  (:require [clojure.pprint :refer [pprint]]))
+  (:require [clojure.pprint :refer [pprint]])
+  (:gen-class))
 
-(def population-size 20)                                         ;; has to be even (simplification)
+(def population-size 20)                                    ;; has to be even (simplification)
 (def survivors-size (/ population-size 2))
 (def chromosome-len 10)
 (def max-gene-value 100000)
@@ -55,5 +56,5 @@
           (time (evolve initial-population fitness-function end-condition))]
       (println "Accepted solution: ")
       (pprint accepted-solution)
-      (println "End population: ")
+      (println "Final population: ")
       (pprint end-population))))
