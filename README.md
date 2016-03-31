@@ -12,8 +12,10 @@ end-of-dojo, master branch contains finished solution.
 
 To run the example:
 
+```
 lein uberjar
-java -jar target genetic-alg.jar
+java -jar target/genetic-alg.jar
+```
 
 ## Problem
 
