@@ -6,7 +6,7 @@ A exercise proposed on a Clojure Dojo organised at Thoughtworks on
 29/03/16 in London.
 
 If you want to continue where the group left off checkout the branch
-end-of-dojo, master branch contains finished solution.
+`end-of-dojo`, `master` branch contains finished solution.
 
 ## Usage
 
